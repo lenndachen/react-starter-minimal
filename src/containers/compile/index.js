@@ -1,4 +1,14 @@
-import React from 'react';
-import weather from "../../components/Weather"
+import React from "react";
+import Today from "../../components/Today";
 
-class 
+class Compile extends React.Component {
+  render() {
+    return (
+      <div>
+        <Today />
+      </div>
+    );
+  }
+}
+
+export default Compile;
